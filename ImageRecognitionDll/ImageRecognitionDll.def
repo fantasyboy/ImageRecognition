@@ -1,0 +1,5 @@
+LIBRARY ImageRecognitionDll
+EXPORTS
+set_config
+set_callback
+install

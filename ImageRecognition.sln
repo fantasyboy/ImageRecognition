@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognition", "ImageRecognition\ImageRecognition.vcxproj", "{39C1838A-0316-4D3B-A7D6-35F5E6E07777}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3C146D6-0841-43FB-8DF9-E83262F4A16E} = {E3C146D6-0841-43FB-8DF9-E83262F4A16E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageRecognitionDll", "ImageRecognitionDll\ImageRecognitionDll.vcxproj", "{E3C146D6-0841-43FB-8DF9-E83262F4A16E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SteamImageManager", "SteamImageManager\SteamImageManager.vcxproj", "{DBC2A73B-53B4-4AA0-8C36-E7A7A45976E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inject", "Inject\Inject.vcxproj", "{50DA45AC-7D67-40EC-8431-D97506795EB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C1838A-0316-4D3B-A7D6-35F5E6E07777}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39C1838A-0316-4D3B-A7D6-35F5E6E07777}.Debug|Win32.Build.0 = Debug|Win32
+		{39C1838A-0316-4D3B-A7D6-35F5E6E07777}.Release|Win32.ActiveCfg = Release|Win32
+		{39C1838A-0316-4D3B-A7D6-35F5E6E07777}.Release|Win32.Build.0 = Release|Win32
+		{E3C146D6-0841-43FB-8DF9-E83262F4A16E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3C146D6-0841-43FB-8DF9-E83262F4A16E}.Debug|Win32.Build.0 = Debug|Win32
+		{E3C146D6-0841-43FB-8DF9-E83262F4A16E}.Release|Win32.ActiveCfg = Release|Win32
+		{E3C146D6-0841-43FB-8DF9-E83262F4A16E}.Release|Win32.Build.0 = Release|Win32
+		{DBC2A73B-53B4-4AA0-8C36-E7A7A45976E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBC2A73B-53B4-4AA0-8C36-E7A7A45976E1}.Debug|Win32.Build.0 = Debug|Win32
+		{DBC2A73B-53B4-4AA0-8C36-E7A7A45976E1}.Release|Win32.ActiveCfg = Release|Win32
+		{DBC2A73B-53B4-4AA0-8C36-E7A7A45976E1}.Release|Win32.Build.0 = Release|Win32
+		{50DA45AC-7D67-40EC-8431-D97506795EB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50DA45AC-7D67-40EC-8431-D97506795EB3}.Debug|Win32.Build.0 = Debug|Win32
+		{50DA45AC-7D67-40EC-8431-D97506795EB3}.Release|Win32.ActiveCfg = Release|Win32
+		{50DA45AC-7D67-40EC-8431-D97506795EB3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
